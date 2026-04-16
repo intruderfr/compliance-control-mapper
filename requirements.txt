@@ -1,0 +1,2 @@
+# No runtime dependencies - compliance-control-mapper uses only the Python standard library.
+# Dev dependencies: pip install -e '.[dev]'
