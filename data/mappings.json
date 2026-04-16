@@ -1,0 +1,119 @@
+{
+  "description": "Cross-framework control mappings. Each entry links conceptually equivalent controls across ISO 27001:2022, NIST CSF 2.0, CIS Controls v8, and SOC 2 Trust Services Criteria. Mappings are general guidance curated from publicly available crosswalks (NIST OLIR, CIS Community Defense Model, AICPA mapping guides). Always validate against your organization's specific control implementation with qualified auditors before relying on them for audit scope.",
+  "version": "1.0",
+  "last_updated": "2026-04-16",
+  "topics": {
+    "access_control": {
+      "name": "Access Control & Identity Management",
+      "iso27001": ["A.5.15", "A.5.16", "A.5.17", "A.8.2", "A.8.3", "A.8.5"],
+      "nist_csf": ["PR.AA"],
+      "cis": ["CIS-5", "CIS-6"],
+      "soc2": ["CC6.1", "CC6.2", "CC6.3"]
+    },
+    "asset_management": {
+      "name": "Asset Inventory & Management",
+      "iso27001": ["A.5.9", "A.5.10"],
+      "nist_csf": ["ID.AM"],
+      "cis": ["CIS-1", "CIS-2"],
+      "soc2": ["CC3.1", "CC5.1"]
+    },
+    "vulnerability_management": {
+      "name": "Vulnerability & Patch Management",
+      "iso27001": ["A.8.8", "A.8.9"],
+      "nist_csf": ["ID.RA", "PR.PS", "DE.CM"],
+      "cis": ["CIS-7", "CIS-18"],
+      "soc2": ["CC7.1"]
+    },
+    "logging_monitoring": {
+      "name": "Logging & Monitoring",
+      "iso27001": ["A.8.15", "A.8.16"],
+      "nist_csf": ["DE.CM", "DE.AE"],
+      "cis": ["CIS-8", "CIS-13"],
+      "soc2": ["CC7.1", "CC7.2"]
+    },
+    "incident_response": {
+      "name": "Incident Response & Management",
+      "iso27001": ["A.5.24", "A.6.8"],
+      "nist_csf": ["RS.MA", "RS.AN", "RS.CO", "RS.MI"],
+      "cis": ["CIS-17"],
+      "soc2": ["CC7.3", "CC7.4"]
+    },
+    "malware_defense": {
+      "name": "Malware Defense",
+      "iso27001": ["A.8.7", "A.8.23"],
+      "nist_csf": ["PR.PS", "DE.CM"],
+      "cis": ["CIS-9", "CIS-10"],
+      "soc2": ["CC6.8"]
+    },
+    "backup_recovery": {
+      "name": "Backup & Recovery",
+      "iso27001": ["A.8.13", "A.5.29", "A.5.30"],
+      "nist_csf": ["RC.RP", "RC.CO"],
+      "cis": ["CIS-11"],
+      "soc2": ["A1.3", "CC7.5", "CC9.1"]
+    },
+    "data_protection": {
+      "name": "Data Classification & Protection",
+      "iso27001": ["A.5.9", "A.8.10", "A.8.12", "A.8.24"],
+      "nist_csf": ["PR.DS"],
+      "cis": ["CIS-3"],
+      "soc2": ["C1.1", "C1.2", "CC6.7"]
+    },
+    "governance": {
+      "name": "Governance, Policies & Roles",
+      "iso27001": ["A.5.1", "A.5.2"],
+      "nist_csf": ["GV.OC", "GV.RM", "GV.RR", "GV.PO"],
+      "cis": [],
+      "soc2": ["CC1.1", "CC1.2", "CC1.3"]
+    },
+    "risk_management": {
+      "name": "Risk Assessment & Management",
+      "iso27001": ["A.5.7"],
+      "nist_csf": ["ID.RA", "GV.RM"],
+      "cis": [],
+      "soc2": ["CC3.1", "CC3.2", "CC9.1"]
+    },
+    "training_awareness": {
+      "name": "Security Awareness & Training",
+      "iso27001": ["A.6.3"],
+      "nist_csf": ["PR.AT"],
+      "cis": ["CIS-14"],
+      "soc2": ["CC1.1", "CC2.2"]
+    },
+    "network_security": {
+      "name": "Network Security",
+      "iso27001": ["A.8.20", "A.8.23"],
+      "nist_csf": ["PR.IR"],
+      "cis": ["CIS-12", "CIS-13"],
+      "soc2": ["CC6.6"]
+    },
+    "physical_security": {
+      "name": "Physical Security",
+      "iso27001": ["A.7.1", "A.7.2"],
+      "nist_csf": ["PR.AA"],
+      "cis": [],
+      "soc2": ["A1.2"]
+    },
+    "supply_chain": {
+      "name": "Supply Chain & Vendor Management",
+      "iso27001": ["A.5.23"],
+      "nist_csf": ["GV.SC"],
+      "cis": ["CIS-15"],
+      "soc2": ["CC9.2"]
+    },
+    "change_management": {
+      "name": "Change & Configuration Management",
+      "iso27001": ["A.8.9"],
+      "nist_csf": ["PR.PS"],
+      "cis": ["CIS-4"],
+      "soc2": ["CC8.1"]
+    },
+    "secure_development": {
+      "name": "Secure Software Development",
+      "iso27001": ["A.8.28"],
+      "nist_csf": ["PR.PS"],
+      "cis": ["CIS-16"],
+      "soc2": ["CC8.1"]
+    }
+  }
+}
