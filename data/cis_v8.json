@@ -1,0 +1,25 @@
+{
+  "framework": "CIS Controls v8",
+  "version": "8",
+  "description": "CIS Critical Security Controls v8 - a prioritized set of actions to protect organizations from known cyber attack vectors.",
+  "controls": [
+    {"id": "CIS-1", "name": "Inventory and Control of Enterprise Assets", "summary": "Actively manage (inventory, track, and correct) all enterprise assets connected to the infrastructure."},
+    {"id": "CIS-2", "name": "Inventory and Control of Software Assets", "summary": "Actively manage all software on the network so only authorized software is installed and can execute."},
+    {"id": "CIS-3", "name": "Data Protection", "summary": "Develop processes and technical controls to identify, classify, securely handle, retain, and dispose of data."},
+    {"id": "CIS-4", "name": "Secure Configuration of Enterprise Assets and Software", "summary": "Establish and maintain the secure configuration of enterprise assets and software."},
+    {"id": "CIS-5", "name": "Account Management", "summary": "Use processes and tools to assign and manage authorization to credentials for user accounts, including administrator accounts."},
+    {"id": "CIS-6", "name": "Access Control Management", "summary": "Use processes and tools to create, assign, manage, and revoke access credentials and privileges."},
+    {"id": "CIS-7", "name": "Continuous Vulnerability Management", "summary": "Develop a plan to continuously assess and track vulnerabilities on all enterprise assets within the infrastructure."},
+    {"id": "CIS-8", "name": "Audit Log Management", "summary": "Collect, alert, review, and retain audit logs of events that could help detect, understand, or recover from an attack."},
+    {"id": "CIS-9", "name": "Email and Web Browser Protections", "summary": "Improve protections and detections of threats from email and web vectors, as these are opportunities for attackers."},
+    {"id": "CIS-10", "name": "Malware Defenses", "summary": "Prevent or control the installation, spread, and execution of malicious applications, code, or scripts on enterprise assets."},
+    {"id": "CIS-11", "name": "Data Recovery", "summary": "Establish and maintain data recovery practices sufficient to restore in-scope enterprise assets to a pre-incident trusted state."},
+    {"id": "CIS-12", "name": "Network Infrastructure Management", "summary": "Establish, implement, and actively manage network devices to prevent attackers from exploiting network services."},
+    {"id": "CIS-13", "name": "Network Monitoring and Defense", "summary": "Operate processes and tooling to establish and maintain comprehensive network monitoring and defense against security threats."},
+    {"id": "CIS-14", "name": "Security Awareness and Skills Training", "summary": "Establish and maintain a security awareness program to influence behavior among the workforce."},
+    {"id": "CIS-15", "name": "Service Provider Management", "summary": "Develop a process to evaluate service providers who hold sensitive data or are responsible for critical IT platforms."},
+    {"id": "CIS-16", "name": "Application Software Security", "summary": "Manage the security lifecycle of in-house developed, hosted, or acquired software to prevent, detect, and remediate weaknesses."},
+    {"id": "CIS-17", "name": "Incident Response Management", "summary": "Establish a program to develop and maintain an incident response capability to prepare, detect, and quickly respond to an attack."},
+    {"id": "CIS-18", "name": "Penetration Testing", "summary": "Test the effectiveness and resiliency of enterprise assets through identifying and exploiting weaknesses in controls."}
+  ]
+}
